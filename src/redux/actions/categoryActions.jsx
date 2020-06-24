@@ -9,7 +9,6 @@ export function getCategoriesSuccess(categories) {
 }
 
 // Thunk - Middleware
-
 export function getCategories() {
   return function (dispatch) {
     let url = "http://localhost:3000/categories";

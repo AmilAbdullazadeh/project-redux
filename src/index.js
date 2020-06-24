@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./components/Root/App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "aleritfyjs/build/css/alertify.min.css";
 import { Provider } from "react-redux";
 import configureStore from "./redux/reducers/configureStore.jsx";
 
