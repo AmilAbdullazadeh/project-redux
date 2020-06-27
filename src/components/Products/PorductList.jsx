@@ -38,17 +38,17 @@ class PorductList extends Component {
             </tr>
           </thead>
           <tbody>
-            {this.props.products.map((product) => {
+            {this.props.products.map((product) => (
               <tr key={product.id}>
                 <th scope="row">{product.id}</th>
                 <td>{product.productName}</td>
                 <td>{product.quantityPerUnit}</td>
                 <td> {product.unitsInStock} </td>
                 <td>
-                  <Button onClick={() => this.addToCart(product)}>Add</Button>
+                  <Button color="success" onClick={() => this.addToCart(product)}>Add to cart</Button>
                 </td>
-              </tr>;
-            })}
+              </tr>
+            ))}
           </tbody>
         </Table>
       </div>
