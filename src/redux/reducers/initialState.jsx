@@ -2,5 +2,6 @@ export default {
   currentCategory: {},
   categories: [],
   products: [],
-  cart: []
+  cart: [],
+  savedProduct: {},
 };
